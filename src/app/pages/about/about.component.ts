@@ -35,5 +35,29 @@ export class AboutComponent {
       id: 7,
       name: "g"
     },
+    {
+      id: 8,
+      name: "h"
+    },
+    {
+      id: 9,
+      name: "i"
+    },
+    {
+      id: 10,
+      name: "j"
+    },
+    {
+      id: 11,
+      name: "k"
+    },
+    {
+      id: 12,
+      name: "l"
+    },
+    {
+      id: 13,
+      name: "m"
+    },
   ]
 }

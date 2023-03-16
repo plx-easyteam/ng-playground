@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class SquareComponent {
   @Input() hasBorder = false;
   @Input() isRounded = false;
+  @Input() hasAltBG = false;
 }
