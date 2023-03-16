@@ -1,15 +1,16 @@
 <section id="about_section"
-  class="w-full bg-fuchsia-300"
+  class="w-full"
 >
   <p>About works!</p>
 
-  <div class="flex flex-row justify-center w-full gap-1">
+  <div class="flex flex-row flex-wrap w-full sticky top-0">
 
-    <div *ngFor="let item of placeholder_items" class="w-1/5">
+    <div *ngFor="let item of placeholder_items; let i = index" class="w-1/5 p-0.5">
       <app-square>
-        <div class="bg-cyan-300">
+        <div class="" [ngClass]="i % 2 ? 'bg-cyan-100':'bg-cyan-200'">
           {{item.id}}
           {{item.name}}
+          index : {{i + 1}}
         </div>
       </app-square>
     </div>

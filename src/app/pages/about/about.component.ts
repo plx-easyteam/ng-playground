@@ -27,5 +27,13 @@ export class AboutComponent {
       id: 5,
       name: "e"
     },
+    {
+      id: 6,
+      name: "f"
+    },
+    {
+      id: 7,
+      name: "g"
+    },
   ]
 }

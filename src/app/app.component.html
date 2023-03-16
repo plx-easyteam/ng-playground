@@ -4,26 +4,29 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * -->
 <div
   id="app-container"
-  class="flex flex-col
-    justify-center
-    items-center
-    h-screen w-screen min-w-[420px]
-    bg-purple-200"
+  class="flex flex-col relative
+    h-full w-screen min-w-[380px]
+    mt-0.5 bg-slate-50"
 >
+  <div class="fixed top-0 left-0 right-0 z-[9999] border-t-2 border-violet-400"></div>
+
   <app-header></app-header>
   
   <div
-    class="flex flex-col grow bg-amber-300
+    class="flex flex-col grow bg-slate-50
     w-full max-w-[1140px]
-    py-2"
+    m-auto mt-0 py-2
+    shadow-md"
   >
   <!-- <div
     class="flex flex-col grow bg-amber-300
     w-full min-w-[420] max-w-[1280px]
     mx-auto my-0 p-1"
   > -->
-    <router-outlet></router-outlet>
+    <div class="flex-grow">
+      <router-outlet></router-outlet>
+    </div>
+    <app-footer></app-footer>
   </div>
 
-  <app-footer></app-footer>
 </div>
