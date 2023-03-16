@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutComponent } from './pages/about/about.component';
+import { HeaderComponent } from './shared/layout/header/header.component';
+import { FooterComponent } from './shared/layout/footer/footer.component';
+import { SquareComponent } from './shared/containers/square/square.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    AboutComponent,
+    FooterComponent,
+    SquareComponent
   ],
   imports: [
     BrowserModule,

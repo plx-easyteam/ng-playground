@@ -1,0 +1,49 @@
+<section id="about_section"
+  class="w-full bg-fuchsia-300"
+>
+  <p>About works!</p>
+
+  <div class="flex flex-row justify-center w-full gap-1">
+
+    <div *ngFor="let item of placeholder_items" class="w-1/5">
+      <app-square>
+        <div class="bg-cyan-300">
+          {{item.id}}
+          {{item.name}}
+        </div>
+      </app-square>
+    </div>
+
+    <!-- <div class="w-1/5">
+      <app-square>
+        <div class="bg-cyan-200">
+          b
+        </div>
+      </app-square>
+    </div>
+
+    <div class="w-1/5">
+      <app-square>
+        <div class="bg-sky-300">
+          c
+        </div>
+      </app-square>
+    </div>
+
+    <div class="w-1/5">
+      <app-square>
+        <div class="bg-sky-200">
+          d
+        </div>
+      </app-square>
+    </div>
+
+    <div class="w-1/5">
+      <app-square>
+        <div class="bg-blue-300">
+          e
+        </div>
+      </app-square>
+    </div> -->
+  </div>
+</section>
