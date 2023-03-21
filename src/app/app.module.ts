@@ -7,6 +7,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { SquareComponent } from './shared/containers/square/square.component';
+import { ThreeByTwoComponent } from './shared/containers/three-by-two/three-by-two.component';
+import { FourByOneComponent } from './shared/containers/four-by-one/four-by-one.component';
+import { TwoByOneComponent } from './shared/containers/two-by-one/two-by-one.component';
+import { TwoByThreeComponent } from './shared/containers/two-by-three/two-by-three.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { SquareComponent } from './shared/containers/square/square.component';
     HeaderComponent,
     AboutComponent,
     FooterComponent,
-    SquareComponent
+    SquareComponent,
+    ThreeByTwoComponent,
+    FourByOneComponent,
+    TwoByOneComponent,
+    TwoByThreeComponent
   ],
   imports: [
     BrowserModule,

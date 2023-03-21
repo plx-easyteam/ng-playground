@@ -1,0 +1,27 @@
+// Based on the same model of the square
+.rect32_outer{
+	// Outer part of the rectangle
+	position: relative;
+	width: 100%;
+
+  overflow: hidden;
+
+	&::before {
+		content: "";
+		display: block;
+		padding-top: 66.667%;
+	}
+}
+.rect32_inner{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+    padding: 5px;
+}
+.rect32_content{
+  width: 100%;
+  height: 100%;
+}
