@@ -36,7 +36,9 @@ body {
 
   border-radius: .125rem;
   border: 1px solid transparent;
-  
+
+  background-color: #EEF2FF;
+
   &:hover{
     border: 1px solid hsla(0, 0%, 0%, 0.0625);
     // box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.25);
